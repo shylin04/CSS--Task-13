@@ -1,0 +1,96 @@
+.container{
+    position:relative;
+    display:flex;
+    margin:70px;
+}
+img{
+    width:50%;
+    height:600px;
+   
+ }
+.form{
+   
+    background-color: white;
+    width:50%;
+}
+h1{
+    color:gray;
+    margin-left: 10px;
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-style:solid;
+    text-decoration-color:rgb(255, 192, 203);
+}
+.checkbox{
+    width: 10px;
+    height:20px;
+    position: absolute;
+    top:49%;
+    left:58%;
+}
+p{
+    margin-left: 120px;
+}
+.media{
+    margin-top:100px;
+    text-align: center;
+}
+input{
+    border-radius: 25px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    width:60%;
+    height:35px;
+}
+label{
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.button{
+    background-color: rgb(255, 192, 203);
+    color: white;
+    width:60%;
+    height:35px;
+    border-radius: 25px;
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+p > a{
+    color:pink
+}
+.fa-facebook-official{
+   position:absolute;
+   left:76%;
+   color: pink;
+}
+.fa-instagram{
+   position:absolute;
+   left:78%;
+   color: gray;
+}
+.fa-twitter{
+    position:absolute;
+    left:80%;
+    color: gray;
+}
+.box-one{
+    width:350px;
+    height: 150px;
+    background-color:rgb(255, 192, 203);
+    z-index: -1;
+    position: absolute;
+    left: 76%;
+    top:1%;
+}
+.box-two{
+    width:550px;
+    height: 150px;
+    background-color:rgba(0, 0, 255, 0.281);
+    z-index: -1;
+    position: absolute;
+    left:2%;
+    top:78%;
+}
