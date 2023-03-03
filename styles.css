@@ -1,12 +1,13 @@
 .container{
     position:relative;
     display:flex;
-    margin:40px;
+    margin:50px;
+
 }
 
 img{
     width:50%;
-    height:600px;
+    height:650px;
    
  }
 .form{
@@ -88,7 +89,7 @@ p > a{
 }
 .box-two{
     width:550px;
-    height: 150px;
+    height: 100px;
     background-color:rgba(137, 43, 226, 0.704);
     z-index: -1;
     position: absolute;
